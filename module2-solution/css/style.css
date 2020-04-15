@@ -10,25 +10,6 @@ h1 {
 	margin-bottom: 15px;
 	text-align: center;
 }
-p {
-	border : 1px solid black;
-	width : 90%;
-	height: 160px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.row {
-	width: 90%;
-}
-.crossFit p {
-	background-color: #FFE4E1;
-}
-.fullBody p {
-	background-color: #E1FFE4;
-}
-.stretching p {
-	background-color: #E4E1FF;
-}
 /*desktop view*/
 @media (min-width: 992px) {
 	.col-lg {
@@ -57,4 +38,42 @@ p {
 		width: 100%;
 	}
 }
+.item {
+	margin: 10px;
+	position: relative;
+	background-color: #FFE4E1;
+}
+p {
+	text-align: left;
+}
+.title{
+    border: 1px solid black;
+    font-size: 140%;
+    position: relative;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 0px;
+    padding-left:50px;
+    padding-right: 50px;
+}
 
+.text{
+    border: 1px solid black;    
+    padding: 12px;
+    padding-top: 30px;
+}
+
+#title1{
+    background-color: #FCFFE1;
+}
+
+#title2{
+    background-color: #CDEBD0;
+    color: white;
+}
+
+#title3{
+    background-color: #E4E1FF;
+    color: black;
+}
